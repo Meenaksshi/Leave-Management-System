@@ -3,11 +3,13 @@ This online leave management system is developed to maintain a schematic databas
 
 It is an aggregation software with different login interfaces for employee, HR manager, System admin and Payroll department.
 
--> Employee can apply for a leave and view his previous leave details
+* Employee can apply for a leave and view his previous leave details
+*	HR manager is provided with an option to accept/cancel a leave request
+*	System admin manages and maintains the user information in the DB
+*	Payroll department has access to the leave reports of each of the employees to process the payroll
 
-->	HR manager is provided with an option to accept/cancel a leave request
+Front-end: Java
 
-->	System admin manages and maintains the user information in the DB
+Backend: MySQL
 
-->	Payroll department has access to the leave reports of each of the employees to process the payroll
-
+To establish connection: JDBC
